@@ -99,23 +99,21 @@ img.circle:hover {
 }
 #box3, #box1 { /*use # when you know there will only be one instance of a class in the page - use . when you know there will be multiple instances of an element in the page*/
     height: 28VH;
+    width: 40%;
     position: relative;
     border: solid 10px rgba(0,0,255,0);
     background-color: rgba(255,0,255,0);
     overflow: hidden;
     text-overflow: clip;
+    text-align: center;
 }
 #box3 {
-    width: 40%;
-    vertical-align: middle;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-right: 50%;
+    padding: 0px 10px 0px 10px;
 }
 #box1 {
-    width: 40%;
-    margin-top: -28VH;
     margin-left: 50%;
-    text-align: center;
+    margin-top: -28VH;
 }
 .boxM {
     position: relative;
