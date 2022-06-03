@@ -106,19 +106,16 @@ img.circle:hover {
     text-overflow: clip;
 }
 #box3 {
-    width: 50%;
+    width: 40%;
     vertical-align: middle;
     padding-left: 10px;
     padding-right: 10px;
 }
 #box1 {
+    width: 40%;
     margin-top: -28VH;
     margin-left: 50%;
-    align-items: center;
     text-align: center;
-    vertical-align: middle;
-    align-content: center;
-    align-self: center;
 }
 .boxM {
     position: relative;
