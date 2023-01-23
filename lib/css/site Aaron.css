@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400&family=Raleway:wght@200&family=Forum&display=swap');
+:root {
+    --titlefont: Noto Serif;
+    --reviewfont: Raleway;
+    --detailfont: Raleway;
+    --background-color: #030305;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    color: white;
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.content {
+    z-index: 1;
+    position: absolute;
+}
+
+.page {
+    position: absolute;
+    background: rgba(20, 20, 20, 0.7);
+    border-radius: 3%;
+}
+
+.pageText {
+    position: absolute;
+    padding: 1px 10px;
+    top: 90%;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -5vh);
+    display: inline-block;
+    font-weight: lighter;
+    font-family: var(--titlefont);
+}
+
+.details {
+    position: relative;
+    display: none;
+    z-index: -1;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 3px;
+    font-size: 2em;
+}
+
+.phone,
+.email,
+hr {
+    display: block;
+    line-height: 0;
+    font-family: var(--detailfont);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid white;
+    width: 150px;
+    margin: 0;
+}
+
+blockquote {
+    display: block;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: var(--reviewfont), Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+blockquote::before {
+    display: block;
+    text-align: left;
+    content: "“";
+    font-style: italic;
+    font-family: Georgia;
+}
+
+blockquote::after {
+    display: block;
+    text-align: right;
+    content: "\A”";
+    font-style: italic;
+    font-family: Georgia;
+}
+
+@media screen and (max-device-width: 480px) {
+    .content {
+        width: 98vw;
+        transform: translate(0, 50%);
+    }
+
+    .pageText {
+        width: 100%;
+    }
+
+    blockquote {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+    }
+    
+    blockquote::before {
+        font-size: 2em;
+        line-height: 1rem;
+    }
+    
+    blockquote::after {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-device-width: 801px) {
+    .content {
+        width: 96vw;
+        transform: translate(0, 50%);
+    }
+
+    .pageText {
+        width: 75%;
+        transform: translate(17.5%, 0);
+    }
+
+    blockquote {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+    
+    blockquote::before {
+        font-size: 3em;
+        line-height: 1rem;
+    }
+    
+    blockquote::after {
+        font-size: 3em;
+    }
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 50%;
+    border: 4px solid var(--background-color);
+    border-top: 6px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
