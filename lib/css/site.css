@@ -75,8 +75,8 @@ body {
     justify-content: space-between;
     align-items: center;
     min-height: 3rlh;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .leftfield {
@@ -111,7 +111,7 @@ body {
     border: var(--dark) 7px solid;
     color: white;
     min-width: 80vw;
-    min-height: 2.25rlh;
+    min-height: 3rlh;
     font-size: 2rlh;
     font-family: var(--text);
 }
