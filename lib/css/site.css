@@ -1,0 +1,118 @@
+:root {
+	--light: #9ADBF9;
+    --mid: #3FA9F5;
+    --dark: #228AB6;
+    --darker: rgb(20, 20, 20);
+    --background: rgb(50,50,50);
+    --text: arial;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.routineview, .workoutview, .exerciseview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: var(--background);
+	z-index: -0
+}
+
+.routineview, .workoutview {
+    align-content: center;
+}
+
+.container {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 14vh;
+    background-color: var(--background);
+}
+
+.headerbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 14vh;
+    padding: 1vh 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--darker);
+}
+
+.backbutton {
+    width: 2.5rlh;
+	height: 2.5rlh;
+    background-image: url('../img/Back button.svg');
+    background-color: rgba(0,0,0,0);
+    background-size: contain;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border: 0px;
+}
+
+.title {
+    position: relative;
+    right: 5vw;
+    color: var(--light);
+    font-size: 2lh;
+    font-weight: bold;
+    font-family: var(--text);
+}
+
+.contentbar {
+    position: relative;
+    width: 80vw;
+    left: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.5rlh;
+}
+
+.leftfield {
+    display: inline;
+    color: var(--mid);
+    font-size: 1.25rlh;
+    font-weight: bold;
+    font-family: var(--text);
+}
+
+.rightfield {
+    display: inline;
+    color: var(--light);
+    font-weight: normal;
+    font-size: 1.3rlh;
+    font-family: var(--text);
+}
+
+.centerfield {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rlh;
+    font-family: var(--text);
+}
+
+.bigbutton {
+    position: relative;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    left: 10vw;
+    background-color: var(--mid);
+    border: var(--dark) 7px solid;
+    color: white;
+    min-width: 80vw;
+    min-height: 2.5rlh;
+    font-size: 2rlh;
+    font-family: var(--text);
+}
+
+.backbutton:hover, .bigbutton:hover {
+    cursor: pointer;
+}

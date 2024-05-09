@@ -1,41 +1,25 @@
-<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <title>Jenny Ivas - Piano Teacher</title>
-    <link rel="stylesheet" href="lib/css/site Aaron.css" />
-    <!--Jquery-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!--knockout UI-->
-    <script type="text/javacript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
-    <!--GSAP animation engine-->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-</head>
-
-<body>
-    <div id="loader"></div>
-    <div class="title">
-        <div class="header">
-            <h1>Jenny Ivas</h1>
+    <head>
+        <link rel="stylesheet" href="lib/css/site.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+         <div class="routineview" id="routineview">
+        </div> 
+        <div class="workoutview" id="workoutview">
+            <div class="headerbar" id="workoutheaderbar">
+                <button type="button" class="backbutton"></button>
+                <h1 class="title" id="workouttitle">Workout Title</h1>
+            </div>
+            <div class="container" id="workoutcontainer"> </div>
         </div>
-        <vl></vl>
-        <div class="details">
-            <p class="phone">07504 880524</p>
-            <hr>
-            <p class="email">jennyivas@icloud.com</p>
+        <div class="exerciseview" id="exerciseview">
+            <div class="headerbar" id="exerciseheaderbar">
+                <button type="button" class="backbutton"></button>
+                <h1 class="title" id="exercisetitle">Exercise Title</h1>
+            </div>
+            <div class="container" id="exercisecontainer"></div>
         </div>
-    </div>
-    <div class="content" style="display: none;">
-        <div class="pageText">
-            <blockquote class="reviews"></blockquote>
-        </div>
-    </div>
-
-    <script type="importmap">
-        { "imports": { "three": "./lib/js/three.module.js", "addons/": "./lib/js/" } }
-    </script>
-    <script type="module" src="lib/js/PageControls.js"></script>
-</body>
-
+        <script type="text/javascript" src="lib/js/handle_data.js"></script>
+    </body>
 </html>

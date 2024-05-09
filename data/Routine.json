@@ -1,0 +1,96 @@
+{
+    "Legs": [
+        {
+            "superSet": [{
+                "activity": "Leg Press",
+                "machine": "Leg Press Machine",
+                "weight": 40,
+                "sets": 3,
+                "reps": {
+                    "value": 10
+                }
+            },
+            {
+                "activity": "Toe Press",
+                "machine": "Leg Press Machine",
+                "weight": 40,
+                "sets": 3,
+                "reps": {
+                    "range": [8, 12]
+                }
+            }]
+        },
+        {
+            "activity": "Leg Extensions",
+            "machine": "Leg Extension Machine",
+            "weight": 40,
+            "sets": 3,
+            "reps": {
+                "alternate": [
+                    {
+                        "description": "Both Legs",
+                        "value": 10
+                    },
+                    {
+                        "description": "Each Leg",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        {
+            "activity": "Leg Curls",
+            "machine": "Leg Curl Machine",
+            "weight": 40,
+            "sets": 3,
+            "reps": {
+                "alternate": [
+                    {
+                        "description": "Both Legs",
+                        "value": 10
+                    },
+                    {
+                        "description": "Each Leg",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        {
+            "activity": "Lunges",
+            "machine": "Floor",
+            "weight": 0,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        },
+        {
+            "activity": "Stiff Leg Deadlift",
+            "machine": "Floor",
+            "weight": 15,
+            "sets": 3,
+            "reps": {
+                "range": [8, 12]
+            }
+        },
+        {
+            "activity": "Squats",
+            "machine": "Smith Machine",
+            "weight": 40,
+            "sets": 3,
+            "reps": {
+                "range": [8, 12]
+            }
+        },
+        {
+            "activity": "Leg Adduction",
+            "machine": "Cables",
+            "weight": 40,
+            "sets": 3,
+            "reps": {
+                "range": [8, 12]
+            }
+        }
+    ]
+}
