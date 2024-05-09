@@ -62,7 +62,7 @@ body {
     position: relative;
     right: 5vw;
     color: var(--light);
-    font-size: 4lh;
+    font-size: 3.5lh;
     font-weight: bold;
     font-family: var(--text);
 }
@@ -75,6 +75,8 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 3rlh;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .leftfield {
@@ -89,7 +91,7 @@ body {
     display: inline;
     color: var(--light);
     font-weight: normal;
-    font-size: 2.75rlh;
+    font-size: 2rlh;
     font-family: var(--text);
 }
 
@@ -109,7 +111,7 @@ body {
     border: var(--dark) 7px solid;
     color: white;
     min-width: 80vw;
-    min-height: 2.5rlh;
+    min-height: 2.25rlh;
     font-size: 2rlh;
     font-family: var(--text);
 }
