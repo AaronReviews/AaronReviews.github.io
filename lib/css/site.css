@@ -31,7 +31,7 @@ body {
     right: 0;
     top: 14vh;
     background-color: var(--background);
-    vertical-align: middle;
+    align-items: center;
 }
 
 .headerbar {
@@ -74,9 +74,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 3rlh;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    min-height: 3rlh;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .leftfield {
