@@ -31,6 +31,7 @@ body {
     right: 0;
     top: 14vh;
     background-color: var(--background);
+    vertical-align: middle;
 }
 
 .headerbar {
@@ -47,8 +48,8 @@ body {
 }
 
 .backbutton {
-    width: 2.5rlh;
-	height: 2.5rlh;
+    width: 3.5rlh;
+	height: 3.5rlh;
     background-image: url('../img/Back button.svg');
     background-color: rgba(0,0,0,0);
     background-size: contain;
@@ -61,7 +62,7 @@ body {
     position: relative;
     right: 5vw;
     color: var(--light);
-    font-size: 2lh;
+    font-size: 4lh;
     font-weight: bold;
     font-family: var(--text);
 }
@@ -73,13 +74,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 2.5rlh;
+    height: 3rlh;
 }
 
 .leftfield {
     display: inline;
     color: var(--mid);
-    font-size: 1.25rlh;
+    font-size: 2.5rlh;
     font-weight: bold;
     font-family: var(--text);
 }
@@ -88,14 +89,14 @@ body {
     display: inline;
     color: var(--light);
     font-weight: normal;
-    font-size: 1.3rlh;
+    font-size: 2.75rlh;
     font-family: var(--text);
 }
 
 .centerfield {
     color: white;
     font-weight: bold;
-    font-size: 1.5rlh;
+    font-size: 3rlh;
     font-family: var(--text);
 }
 
