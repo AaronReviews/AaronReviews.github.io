@@ -4,7 +4,7 @@
             "superSet": [{
                 "activity": "Leg Press",
                 "machine": "Leg Press Machine",
-                "weight": 35,
+                "weight": 50,
                 "sets": 3,
                 "reps": {
                     "value": 10
@@ -13,7 +13,7 @@
             {
                 "activity": "Toe Press",
                 "machine": "Leg Press Machine",
-                "weight": 35,
+                "weight": 50,
                 "sets": 3,
                 "reps": {
                     "range": [8, 12]
@@ -23,7 +23,7 @@
         {
             "activity": "Leg Extensions",
             "machine": "Leg Ext. Machine",
-            "weight": 40,
+            "weight": 35,
             "sets": 3,
             "reps": {
                 "alternate": [
@@ -41,7 +41,7 @@
         {
             "activity": "Leg Curls",
             "machine": "Leg Curl Machine",
-            "weight": 40,
+            "weight": 35,
             "sets": 3,
             "reps": {
                 "alternate": [
@@ -59,7 +59,7 @@
         {
             "activity": "Lunges",
             "machine": "Dumbbells",
-            "weight": 8,
+            "weight": 0,
             "sets": 3,
             "reps": {
                 "value": 10
@@ -77,7 +77,7 @@
         {
             "activity": "Squats",
             "machine": "Smith Machine",
-            "weight": 40,
+            "weight": 30,
             "sets": 3,
             "reps": {
                 "range": [8, 12]
@@ -91,6 +91,130 @@
             "reps": {
                 "range": [8, 12]
             }
+        }
+    ],
+    "Chest/Triceps": [
+        {
+            "activity": "Pectoral Machine",
+            "machine": "Pectoral Machine",
+            "weight": 30,
+            "sets": 3,
+            "reps": {
+                "value": 12
+            }
+        },
+        {
+            "activity": "Chest Press",
+            "machine": "Chest Press Machine",
+            "weight": 30,
+            "sets": 3,
+            "reps": {
+                "range": [8,12]
+            }
+        },
+        {
+            "activity": "Chest Fly",
+            "machine": "Cables",
+            "weight": 30,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        },
+        {
+            "activity": "Tricep Extension",
+            "machine": "Cables",
+            "weight": 10,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        },
+        {
+            "activity": "Skull Crushers",
+            "machine": "Dumbbells",
+            "weight": 10,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        },
+        {
+            "activity": "Assisted Dips",
+            "machine": "Dips Machine",
+            "weight": 10,
+            "sets": 3,
+            "reps": {
+                "range": [8,12]
+            }
+        },
+        {
+            "activity": "Lateral Raise",
+            "machine": "Cables",
+            "weight": 10,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        }
+    ],
+    "Lats/Biceps": [
+        {
+            "activity": "Wide Overarm Pull Down",
+            "machine": "Lats Machine",
+            "weight": 10,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        },
+        {
+            "activity": "Close Underarm Pull Down",
+            "machine": "Lats Machine",
+            "weight": 10,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        },
+        {
+            "activity": "Shoulder Pull Back Machine",
+            "machine": "",
+            "weight": 10,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        },
+        {
+            "activity": "Arm Pull Back Machine",
+            "machine": "",
+            "weight": 10,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        },
+        {
+            "superSet": [
+            {
+                "activity": "Bicep Curl",
+                "machine": "Cables",
+                "weight": 10,
+                "sets": 3,
+                "reps": {
+                    "value": 10
+                }
+            },
+            {
+                "activity": "Forearm Wrist Curl",
+                "machine": "Cables",
+                "weight": 10,
+                "sets": 3,
+                "reps": {
+                    "value": 10
+                }
+            }]
         }
     ]
 }
