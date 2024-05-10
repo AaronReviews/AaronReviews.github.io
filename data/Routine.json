@@ -4,7 +4,7 @@
             "superSet": [{
                 "activity": "Leg Press",
                 "machine": "Leg Press Machine",
-                "weight": 40,
+                "weight": 35,
                 "sets": 3,
                 "reps": {
                     "value": 10
@@ -13,7 +13,7 @@
             {
                 "activity": "Toe Press",
                 "machine": "Leg Press Machine",
-                "weight": 40,
+                "weight": 35,
                 "sets": 3,
                 "reps": {
                     "range": [8, 12]
@@ -22,7 +22,7 @@
         },
         {
             "activity": "Leg Extensions",
-            "machine": "Leg Extension Machine",
+            "machine": "Leg Ext. Machine",
             "weight": 40,
             "sets": 3,
             "reps": {
@@ -58,8 +58,8 @@
         },
         {
             "activity": "Lunges",
-            "machine": "Floor",
-            "weight": 0,
+            "machine": "Dumbbells",
+            "weight": 8,
             "sets": 3,
             "reps": {
                 "value": 10
@@ -67,8 +67,8 @@
         },
         {
             "activity": "Stiff Leg Deadlift",
-            "machine": "Floor",
-            "weight": 15,
+            "machine": "Barbell",
+            "weight": 30,
             "sets": 3,
             "reps": {
                 "range": [8, 12]
@@ -86,7 +86,7 @@
         {
             "activity": "Leg Adduction",
             "machine": "Cables",
-            "weight": 40,
+            "weight": 30,
             "sets": 3,
             "reps": {
                 "range": [8, 12]
