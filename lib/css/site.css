@@ -83,6 +83,7 @@ body {
     font-size: 2.5rlh;
     font-weight: bold;
     font-family: var(--text);
+    text-align: left;
 }
 
 .rightfield {
@@ -91,6 +92,7 @@ body {
     font-weight: normal;
     font-size: 2rlh;
     font-family: var(--text);
+    text-align: right;
 }
 
 .centerfield {
@@ -98,6 +100,7 @@ body {
     font-weight: bold;
     font-size: 3rlh;
     font-family: var(--text);
+    text-align: center;
 }
 
 .bigbutton {
