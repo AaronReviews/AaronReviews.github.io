@@ -95,9 +95,9 @@
     ],
     "Chest/Triceps": [
         {
-            "activity": "Pectoral Machine",
-            "machine": "Pectoral Machine",
-            "weight": 30,
+            "activity": "Chest Fly",
+            "machine": "Pec Deck (in)",
+            "weight": 50,
             "sets": 3,
             "reps": {
                 "value": 12
@@ -105,17 +105,17 @@
         },
         {
             "activity": "Chest Press",
-            "machine": "Chest Press Machine",
-            "weight": 30,
+            "machine": "Pec Deck (up)",
+            "weight": 50,
             "sets": 3,
             "reps": {
                 "range": [8,12]
             }
         },
         {
-            "activity": "Chest Fly",
+            "activity": "Cable Chest Fly",
             "machine": "Cables",
-            "weight": 30,
+            "weight": 50,
             "sets": 3,
             "reps": {
                 "value": 10
@@ -124,7 +124,7 @@
         {
             "activity": "Tricep Extension",
             "machine": "Cables",
-            "weight": 10,
+            "weight": 25,
             "sets": 3,
             "reps": {
                 "value": 10
