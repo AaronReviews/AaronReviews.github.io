@@ -68,7 +68,7 @@
         {
             "activity": "Stiff Leg Deadlift",
             "machine": "Barbell",
-            "weight": 30,
+            "weight": 20,
             "sets": 3,
             "reps": {
                 "range": [8, 12]
@@ -86,7 +86,7 @@
         {
             "activity": "Leg Adduction",
             "machine": "Cables",
-            "weight": 30,
+            "weight": 5,
             "sets": 3,
             "reps": {
                 "range": [8, 12]
@@ -96,8 +96,8 @@
     "Chest/Triceps": [
         {
             "activity": "Chest Fly",
-            "machine": "Pec Deck (in)",
-            "weight": 50,
+            "machine": "Pec Deck",
+            "weight": 35,
             "sets": 3,
             "reps": {
                 "value": 12
@@ -105,8 +105,8 @@
         },
         {
             "activity": "Chest Press",
-            "machine": "Pec Deck (up)",
-            "weight": 50,
+            "machine": "Chest Press",
+            "weight": 35,
             "sets": 3,
             "reps": {
                 "range": [8,12]
@@ -115,7 +115,7 @@
         {
             "activity": "Cable Chest Fly",
             "machine": "Cables",
-            "weight": 50,
+            "weight": 3.75,
             "sets": 3,
             "reps": {
                 "value": 10
@@ -124,7 +124,7 @@
         {
             "activity": "Tricep Extension",
             "machine": "Cables",
-            "weight": 25,
+            "weight": 3.75,
             "sets": 3,
             "reps": {
                 "value": 10
@@ -133,7 +133,7 @@
         {
             "activity": "Skull Crushers",
             "machine": "Dumbbells",
-            "weight": 10,
+            "weight": 8,
             "sets": 3,
             "reps": {
                 "value": 10
@@ -142,7 +142,7 @@
         {
             "activity": "Assisted Dips",
             "machine": "Dips Machine",
-            "weight": 10,
+            "weight": 45,
             "sets": 3,
             "reps": {
                 "range": [8,12]
@@ -151,27 +151,18 @@
         {
             "activity": "Lateral Raise",
             "machine": "Cables",
-            "weight": 10,
+            "weight": 3.75,
             "sets": 3,
             "reps": {
                 "value": 10
             }
         }
     ],
-    "Lats/Biceps": [
+    "Abs/Shoulders": [
         {
-            "activity": "Wide Overarm Pull Down",
-            "machine": "Lats Machine",
-            "weight": 10,
-            "sets": 3,
-            "reps": {
-                "value": 10
-            }
-        },
-        {
-            "activity": "Close Underarm Pull Down",
-            "machine": "Lats Machine",
-            "weight": 10,
+            "activity": "Av Curls",
+            "machine": "Abs Machine",
+            "weight": 25,
             "sets": 3,
             "reps": {
                 "value": 10
@@ -180,7 +171,27 @@
         {
             "activity": "Shoulder Pull Back Machine",
             "machine": "",
-            "weight": 10,
+            "weight": 25,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        }
+    ],
+    "Traps/Lats": [
+        {
+            "activity": "Wide Overarm Pull Down",
+            "machine": "Lats Machine",
+            "weight": 35,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        },
+        {
+            "activity": "Close Underarm Pull Down",
+            "machine": "Lats Machine",
+            "weight": 35,
             "sets": 3,
             "reps": {
                 "value": 10
@@ -189,6 +200,17 @@
         {
             "activity": "Arm Pull Back Machine",
             "machine": "",
+            "weight": 25,
+            "sets": 3,
+            "reps": {
+                "value": 10
+            }
+        }
+    ],
+    "Lwr Back/Biceps": [
+        {
+            "activity": "Jefferson Curl",
+            "machine": "Lower Back Mchn.",
             "weight": 10,
             "sets": 3,
             "reps": {
@@ -200,7 +222,7 @@
             {
                 "activity": "Bicep Curl",
                 "machine": "Cables",
-                "weight": 10,
+                "weight": 5,
                 "sets": 3,
                 "reps": {
                     "value": 10
@@ -209,7 +231,7 @@
             {
                 "activity": "Forearm Wrist Curl",
                 "machine": "Cables",
-                "weight": 10,
+                "weight": 3.75,
                 "sets": 3,
                 "reps": {
                     "value": 10
